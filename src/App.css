@@ -1,0 +1,82 @@
+/* Form{
+  border: 2px solid black;
+  background-color: white;
+  width:fit-content;
+  margin: 80px auto ;
+  padding: 50px;
+  box-shadow:0px 0px  20px blue;
+  border: none;
+  border-radius: 10px;
+}
+
+ div{
+  margin-bottom: 20px;
+}
+
+.input{
+  height: 25px;
+  width: 100%;
+  margin-top: 10px;
+  font-size: 15px;
+  padding-left: 20px;
+}
+button{
+  padding: 10px 20px;
+  background-color: blue;
+  border: none;
+  color: aliceblue;
+  border-radius: 10px;
+  margin-left: 90px;
+}
+.gen1,.gen2{
+  margin: 10px;
+}
+.input:focus{
+  outline: none;
+  border: 2px solid blue;
+}
+.dgr{
+  color: red;
+} */
+
+.main-form{
+  border: 2px solid black;
+  width: max-content;
+  margin: 50px auto;
+  box-shadow: 0px 0px 20px blue;
+  padding: 40px;
+  border: none;
+  border-radius: 20px;
+  background-color: aliceblue;
+}
+label{
+  margin-right: 20px;
+}
+.inpt1{
+width: 100%;
+height: 20px;
+}
+.A{
+  margin-bottom: 20px;
+}
+.B{
+  display: block;
+  margin-bottom: 10px;
+}
+.inpt1:focus{
+  outline: none;
+  border:2px solid blue;
+}
+.error{
+  color: red;
+}
+.btn1{
+  margin: auto;
+  padding: 10px 20px 10px 20px ;
+  background-color: blue;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
